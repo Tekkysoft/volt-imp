@@ -42,7 +42,6 @@ def route_template(template):
 def get_segment(request):
 
     try:
-
         segment = request.path.split('/')[-1]
 
         if segment == '':
